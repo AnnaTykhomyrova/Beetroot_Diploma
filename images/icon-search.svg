@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" width="24" height="25">
+	<defs>
+		<filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1   0 0 0 1 0" /> </filter>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { filter: url(#flt1);fill: #ffffff } 
+	</style>
+	<path id="icon-search" class="shp0" d="M23.76 23.68L17.57 17.59C19.19 15.82 20.19 13.49 20.19 10.93C20.19 5.44 15.67 1 10.09 1C4.52 1 0 5.44 0 10.93C0 16.42 4.52 20.86 10.09 20.86C12.5 20.86 14.71 20.03 16.45 18.64L22.66 24.76C22.97 25.06 23.46 25.06 23.76 24.76C24.06 24.46 24.06 23.98 23.76 23.68ZM10.09 19.33C5.38 19.33 1.55 15.57 1.55 10.93C1.55 6.29 5.38 2.52 10.09 2.52C14.81 2.52 18.63 6.29 18.63 10.93C18.63 15.57 14.81 19.33 10.09 19.33Z" />
+</svg>
