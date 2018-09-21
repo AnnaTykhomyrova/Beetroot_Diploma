@@ -24,22 +24,22 @@ $(document).ready(function () {
         infinite: true
     });
 
-    // //Isotope
-    // var $isotopeGrid = $('.isotop_container');
-    //
-    // $isotopeGrid.isotope({
-    //     itemSelector: '.img-wrapper',
-    //     percentPosition: true
-    // });
-    //
-    // $('.all_isotop_container .filter a').click(function () {
-    //     var filterValue = $(this).data('filter');
-    //
-    //     $isotopeGrid.isotope({
-    //         filter: filterValue
-    //     });
-    // });
-    // $('.links').on('click', function(e){
-    //     e.preventDefault();})
-    //
+       //Isotope
+    var $isotopeGrid = $('.isotop_container');
+
+    $isotopeGrid.isotope({
+        itemSelector: '.img-wrapper',
+        percentPosition: true
+    });
+
+    $('.all_isotop_container .filter a').click(function () {
+        var filterValue = $(this).data('filter');
+
+        $isotopeGrid.isotope({
+            filter: filterValue
+        });
+    });
+    $('.links').on('click', function(e){
+        e.preventDefault();})
+
 });
