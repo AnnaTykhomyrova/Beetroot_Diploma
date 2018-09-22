@@ -29,7 +29,8 @@ $(document).ready(function () {
 
     $isotopeGrid.isotope({
         itemSelector: '.img-wrapper',
-        percentPosition: true
+        percentPosition: true,
+        laytoutMode:'fitRows'
     });
 
     $('.all_isotop_container .filter a').click(function () {

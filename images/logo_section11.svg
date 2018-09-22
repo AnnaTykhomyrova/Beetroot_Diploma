@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 57" width="181" height="57">
+	<defs>
+		<filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1   0 0 0 1 0" /> </filter>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { filter: url(#flt1);fill: #ffffff } 
+		.txt1 { font-size: 34px;letter-spacing: -1px;fill: rgb(255,255,255);font-family: "Raleway";text-anchor: end } 
+	</style>
+	<path id="logos" class="shp0" d="M37.11,11.71h-10.51l5.25,9.19zM25.29,12.48l-5.25,9.19h10.51zM43.68,21.67l-5.25,-9.19l-5.25,9.19zM33.17,23.2l5.25,9.19l5.25,-9.19zM20.03,23.2l5.25,9.19l5.25,-9.19zM13.46,33.15h10.51l-5.25,-9.19zM50.24,33.15l-5.25,-9.19l-5.25,9.19zM31.85,0.99l-5.25,9.19h10.51zM44.99,43.87l5.25,-9.19h-10.51zM18.72,43.87l5.25,-9.19h-10.51zM6.9,44.64h10.51l-5.25,-9.19zM56.81,44.64l-5.25,-9.19l-5.25,9.19zM46.3,46.17l5.25,9.19l5.25,-9.19zM33.17,46.17l5.25,9.19l5.25,-9.19zM12.15,55.36l5.25,-9.19h-10.51zM0.33,56.13h10.5l-5.25,-9.19zM26.6,56.13h10.51l-5.25,-9.19zM39.74,56.13h10.51l-5.25,-9.19zM58.13,46.94l-5.25,9.19h10.5z" />
+	<text id="Waxom" style="transform: matrix(1,0,0,1,183,40)" >
+		<tspan x="0" y="0" class="txt1">Waxom</tspan>
+	</text>
+</svg>
