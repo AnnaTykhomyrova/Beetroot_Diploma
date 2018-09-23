@@ -10,7 +10,7 @@ $(document).ready(function () {
 
         $('html, body').animate({
             scrollTop: $(id).offset().top
-        }, 900);
+        }, 1500);
     });
 
     //Slick-slider

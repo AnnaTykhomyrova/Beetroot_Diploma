@@ -408,7 +408,7 @@ section.first_section {
     transform: translateX(0);
   }
 }
-//-------------------------------------------------second section-----------------------------
+//-------------------------------------------------second section Services-----------------------------
 section.second_section {
   .container {
     @include flexbox();
@@ -417,7 +417,7 @@ section.second_section {
     padding-top: 75px;
     padding-bottom: 115px;
     .col1 {
-      width: 270px;
+      width: 271px;
       .pencil {
         .shp0 {
           filter: none;
@@ -449,13 +449,12 @@ section.second_section {
       }
     }
     .col2 {
-      width: 270px;
+      width: 274px;
       .layer {
         .shp0 {
           filter: none;
           fill: rgb(85, 85, 85);
         }
-
         width: 50px;
         height: 50px;
         margin: 0 auto;
@@ -481,13 +480,12 @@ section.second_section {
       }
     }
     .col3 {
-      width: 270px;
+      width: 271px;
       .settings {
         .shp0 {
           filter: none;
           fill: rgb(85, 85, 85);
         }
-
         width: 50px;
         height: 50px;
         margin: 0 auto;
@@ -513,13 +511,12 @@ section.second_section {
       }
     }
     .col4 {
-      width: 270px;
+      width: 271px;
       .folder {
         .shp0 {
           filter: none;
           fill: rgb(85, 85, 85);
         }
-
         width: 50px;
         height: 50px;
         margin: 0 auto;
@@ -562,6 +559,14 @@ section.second_section .after:after {
 }
 
 section.second_section {
+  .container {
+    .col2, .col3, .col4 {
+      margin-left: 30px;
+    }
+  }
+}
+
+section.second_section {
   .col1:hover, .col2:hover, .col3:hover, .col4:hover {
     cursor: pointer;
       .pencil, .layer, .settings, .folder {
@@ -577,14 +582,14 @@ section.second_section {
     }
   }
 }
-//-------------------------------------------------third section-----------------------------
+//-------------------------------------------------third section Waxom is Realization of your Ideas.--------------------
 #for_media_image, #for_media_image480 {
     display: none;
 }
 section.third_section .container {
   background-color: #fbf9f7;
+  padding-top: 80px;
   h2 {
-    padding-top: 80px;
     padding-bottom: 30px;
     font-size: 30px;
     color: rgb(85,85,85);
@@ -604,17 +609,13 @@ section.third_section .container {
     margin: 0 auto;
   }
 }
-//-------------------------------------------------fourth section-----------------------------
+//----------------------------------------------fourth section Waxom Multipurpose WordPress Theme-----------------------
 section.fourth_section .container {
   background-image: linear-gradient(90deg, #211b19 0%, #4e3326 100%);
+  padding: 45px 60px;
   .wrapper {
-    padding-left: 60px;
-    padding-right: 60px;
-    .float {
-      float: left;
-      margin-bottom: 45px;
-      margin-top: 45px;
-    }
+    @include flexbox();
+    @include justify-content(center);
     h2 {
       font-size: 28px;
       color: #fff;
@@ -628,16 +629,15 @@ section.fourth_section .container {
       font-weight: 300;
     }
     .purchase_now {
-      float: right;
       font-size: 14px;
       line-height: 23px;
       color: rgb(255, 255, 255);
       font-family: $font-releway;
       font-weight: 800;
       text-align: center;
-      margin-bottom: 45px;
-      margin-top: 45px;
+      padding-left: 500px;
       button {
+        margin-top: 10px;
         width: 170px;
         border-radius: 3px;
         background-color: #988574;
@@ -657,8 +657,10 @@ section.fourth_section .container {
 #colortext {
   color: #c7b299;
 }
-//-------------------------------------------------fifth section-----------------------------
+//-------------------------------------------------fifth section Our Latest Projects.-----------------------------
 section.fifth_section .container {
+  padding-top: 80px;
+  margin-bottom: 80px;
   .load_more {
     font-size: 14px;
     line-height: 23px;
@@ -666,7 +668,6 @@ section.fifth_section .container {
     font-family: $font-releway;
     font-weight: 800;
     text-align: center;
-    margin-bottom: 80px;
     button {
       width: 170px;
       border-radius: 3px;
@@ -684,7 +685,6 @@ section.fifth_section .container {
     }
   }
   h2 {
-    padding-top: 80px;
     padding-bottom: 25px;
     font-size: 30px;
     color: rgb(85,85,85);
@@ -872,14 +872,14 @@ section.fifth_section .container {
 .gap {
   margin-left: 45px;
 }
-//-------------------------------------------------sixth section-----------------------------
+//-------------------------------------------------sixth section Waxom Video Presentation-----------------------------
 section.sixth_section {
   background: url("../images/bg_section4.jpg") no-repeat center;
   background-size: cover;
   .container {
+    padding-top: 205px;
+    padding-bottom: 205px;
     .play_video {
-      padding-top: 205px;
-      padding-bottom: 205px;
       img:hover {
         cursor: pointer;
         opacity: 0.7;
@@ -914,18 +914,18 @@ section.sixth_section {
   }
 }
 
-//-------------------------------------------------seventh section-----------------------------
+//-------------------------------------------------seventh section Excellent for Mobile Devices.------------------------
 section.seventh_section {
   background-color: #fbf9f7;
   .container {
+    padding-top: 70px;
     @include flexbox();
     @include justify-content(center);
     .iphone_in_hand {
-      padding-top: 70px;
       padding-right: 30px;
     }
     .content {
-      padding-top: 190px;
+      padding-top: 120px;
       h2 {
         padding-bottom: 40px;
         font-size: 30px;
@@ -973,16 +973,16 @@ section.seventh_section {
     }
   }
 }
-//-------------------------------------------------eighth section-----------------------------
+//-------------------------------------------------eighth section Counters-----------------------------
 section.eighth_section {
   background-image: linear-gradient(90deg, #211b19 0%, #4e3326 100%);
   .container {
+    padding-top: 65px;
+    padding-bottom: 80px;
     .wrapper {
       @include flexbox();
       @include justify-content(center);
       @include align-items(center);
-      padding-top: 65px;
-      padding-bottom: 80px;
       h1 {
         padding-top: 25px;
         padding-bottom: 20px;
@@ -1010,7 +1010,8 @@ section.eighth_section {
 .wrapper_section_eighth3,
 .wrapper_section_eighth4,
 .wrapper_section_eighth5 {
-  margin-left: 70px;
+  margin-left: 80px;
+  width: 137px;
   .svg {
     margin: 0 auto;
     height: 44px;
@@ -1022,24 +1023,28 @@ section.eighth_section {
   }
 }
 
+.wrapper_section_eighth1 {
+  margin-left: 0;
+}
 .after1 {
   position: relative;
   &:after {
     position: absolute;
     bottom: -25px;
-    right: 52px;
+    right: 55px;
     content: "";
     width: 30px;
     height: 2px;
     background:  #f1ede9;
   }
 }
-//-------------------------------------------------ninth section-----------------------------
+//-------------------------------------------------ninth section Recent Posts.-----------------------------
 section.ninth_section {
   .container {
+    padding-top: 80px;
+    padding-bottom: 140px;
     .wrapper9 {
       h2 {
-        padding-top: 80px;
         padding-bottom: 30px;
         font-size: 30px;
         color: rgb(85,85,85);
@@ -1060,7 +1065,6 @@ section.ninth_section {
       }
     }
     .page1 {
-      padding-bottom: 140px;
       h3 {
         padding-top: 30px;
         padding-bottom: 20px;
@@ -1103,6 +1107,30 @@ section.ninth_section {
 
 .img_relative {
   position: relative;
+  .hov{
+    display: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(87, 87, 86, 0.7);
+    position: absolute;
+  }
+  .hov1 {
+  display: none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(199, 177, 153, 0.4);
+  position: absolute;
+}
+  &:hover {
+    .hov, .hov1 {
+      display: block;
+    }
+    cursor: pointer;
+  }
 }
 
 .img_absolute {
@@ -1111,38 +1139,56 @@ section.ninth_section {
   bottom: 145px;
 }
 
-.read_more {
-  position: relative;
-  &:after {
-    content: '';
-    position: absolute;
-    z-index: 1;
-    left: 82px;
-    bottom: 32px;
-    border: 5px solid transparent;
-    border-left: 8px solid #c7b199;
-  }
-}
-//-------------------------------------------------tenth section-----------------------------
-section.tenth_section {
-  background: url("../images/bg_section8.jpg") no-repeat center;
-  background-size: cover;
+section.ninth_section {
   .container {
-    .all_partners {
-      @include flexbox();
-      @include justify-content(center);
-      padding-top: 135px;
-      padding-bottom: 135px;
-      .partners2, .partners3 {
-        padding-left: 85px;
+    .page1 {
+      .read_more {
+        position: relative;
+        &:after {
+          content: '';
+          position: absolute;
+          z-index: 1;
+          left: 82px;
+          bottom: 32px;
+          border: 5px solid transparent;
+          border-left: 8px solid #c7b199;
+        }
+        &:hover {
+          cursor: pointer;
+          opacity: 0.5;
+        }
       }
     }
   }
 }
-//-------------------------------------------------eleventh section-----------------------------
-section.eleventh {
+//-------------------------------------------------tenth section Partners-----------------------------
+section.tenth_section {
+  background: url("../images/bg_section8.jpg") no-repeat center;
+  background-size: cover;
+  .container {
+    padding-top: 135px;
+    padding-bottom: 135px;
+    .all_partners {
+      @include flexbox();
+      @include justify-content(center);
+      .partners2, .partners3, .partners4 {
+        padding-left: 85px;
+      }
+      .partners1, .partners2, .partners3, .partners4 {
+        &:hover {
+          cursor: pointer;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
+//-------------------------------------------------eleventh section Before footer-----------------------------
+section.eleventh_section {
   background-color: #191919;
   .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
     .general_wrapper {
       @include flexbox();
       @include justify-content(center);
@@ -1155,15 +1201,12 @@ section.eleventh {
         font-weight: 300;
       }
       h5 {
-        padding-top: 25px;
         font-size: 14px;
         line-height: 20px;
         color: rgb(209,209,209);
         font-family: $font-montserrat;
       }
       h6 {
-        padding-bottom: 10px;
-        padding-top: 20px;
         font-size: 12px;
         line-height: 20px;
         color: rgb(54,54,54);
@@ -1171,12 +1214,27 @@ section.eleventh {
         font-weight: 300;
       }
       h3 {
-        padding-top: 105px;
-        padding-bottom: 30px;
         font-size: 24px;
         color: rgb(255,255,255);
         font-family: $font-releway;
         font-weight: bold;
+      }
+    }
+  }
+}
+
+.general_wrapper {
+  .hover_text1,
+  .hover_text2,
+  .hover_text3 {
+    &:hover {
+      cursor: pointer;
+      opacity: 0.7;
+      section.eleventh_section .container .general_wrapper p {
+        color: rgb(199,178,153);
+      }
+      section.eleventh_section .container .general_wrapper h6 {
+        color: rgb(255,255,255);
       }
     }
   }
@@ -1187,8 +1245,11 @@ section.eleventh {
 }
 
 .logo_11section {
-  padding-top: 80px;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
+  margin-top: -30px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .line {
@@ -1196,129 +1257,208 @@ section.eleventh {
   padding-bottom: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  //-------------------------------------------------media requests-----------------------------
-  @media (max-width: 1230px) {
-    .third_section{
-      .container {
-        #main_image {
-          display: none;
+section.eleventh_section {
+  .container {
+    .general_wrapper {
+      .wrapper11_1 {
+        p {
+          padding-bottom: 30px;
+          line-height: 24px;
         }
       }
-    }
-    .third_section {
-      .container {
-        #for_media_image {
-          display: block;
-          width: 100%;
-          height: 100%;
+      .wrapper11_2 {
+        h3 {
+          padding-bottom: 20px;
+        }
+        h6 {
+          padding-bottom: 10px;
+          padding-top: 10px;
+        }
+      }
+      .wrapper11_3 {
+        h3 {
+          padding-bottom: 30px;
+        }
+        h6 {
+          padding-top: 10px;
+        }
+      }
+      .wrapper11_4 {
+        h3 {
+          padding-bottom: 30px;
         }
       }
     }
   }
+}
 
-  @media (max-width: 860px) {
-    .third_section{
-      .container {
-        #main_image {
-          display: none;
-        }
-      }
-    }
-    .third_section {
-      .container {
-        #for_media_image {
-          display: none;
-        }
-      }
-    }
-    .third_section {
-      .container {
-        #for_media_image480 {
-          display: block;
-          width: 100%;
-          height: 100%;
+.padding_top {
+  padding-top: 15px;
+}
+
+section.eleventh_section {
+  .container {
+    .general_wrapper {
+      .wrapper11_1 {
+        .read_more11 {
+          h5 {
+            color: #d1d1d1;
+          }
+          position: relative;
+          &:after {
+            content: '';
+            position: absolute;
+            z-index: 1;
+            left: 88px;
+            bottom: 4px;
+            border: 5px solid transparent;
+            border-left: 8px solid #d1d1d1;
+          }
+          &:hover {
+            cursor: pointer;
+          }
         }
       }
     }
   }
+}
+
+.other_color_text {
+  color: #00bff3;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.other_color_text2 {
+  color: #959595;
+  &:hover {
+    cursor: pointer;
+  }
+}
+//-------------------------------------------------footer-----------------------------
+footer {
+  background-color: #101010;
+  .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    @include flexbox();
+    @include justify-content(center);
+    .copyright, .designed_by {
+      font-size: 13px;
+      line-height: 20px;
+      color: rgb(85,85,85);
+      font-family: $font-montserrat;
+      font-weight: 300;
+      a {
+        color: rgb(85,85,85);
+      }
+      a:hover {
+        cursor: pointer;
+      }
+    }
+    .designed_by {
+      text-align: right;
+      margin-left: 534px;
+    }
+  }
+}
+
+.dash {
+  padding: 0 10px;
+}
+
+
+
+footer {
+  .container {
+    .copyright {
+      .color_text_footer {
+        &:hover {
+          color: #6a6a6a;
+          a {
+            color: #6a6a6a;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  .container {
+    .copyright {
+      .color_text_footer2 {
+        &:hover {
+          color: #6c6155;
+          a {
+            color: #6c6155;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  .container {
+    .designed_by {
+      .color_text_footer3 {
+        &:hover {
+          color: #696969;
+          a {
+            color: #696969;
+          }
+        }
+      }
+    }
+  }
+}
+//-------------------------------------------------media requests-----------------------------
+@media (max-width: 1230px) {
+  .third_section{
+    .container {
+      #main_image {
+        display: none;
+      }
+    }
+  }
+  .third_section {
+    .container {
+      #for_media_image {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  .third_section{
+    .container {
+      #main_image {
+        display: none;
+      }
+    }
+  }
+  .third_section {
+    .container {
+      #for_media_image {
+        display: none;
+      }
+    }
+  }
+  .third_section {
+    .container {
+      #for_media_image480 {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
 
 
