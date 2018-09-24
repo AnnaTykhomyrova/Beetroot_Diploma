@@ -1,6 +1,23 @@
 $(document).ready(function () {
+    // Counters
+    function isScrolledIntoView(el) {
+        var elemTop = el.getBoundingClientRect().top;
+        var elemBottom = el.getBoundingClientRect().bottom;
 
-    //Smooth scrolling
+        var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+        return isVisible;
+    }
+
+    $(window).on('scroll', function() {
+        if (isScrolledIntoView(document.getElementById('counters'))) {
+            $('.counters').countTo();
+
+            // Unbind scroll event
+            $(window).off('scroll');
+        }
+    });
+
+    // Smooth scrolling
     var $anchors = $('a[href^="#"]').not('[href="#"]');
 
     $anchors.click(function (e) {
@@ -13,7 +30,7 @@ $(document).ready(function () {
         }, 1500);
     });
 
-    //Slick-slider
+    // Slick-slider
     $('.slider').slick({
         autoplay: false,
         dots: true,
@@ -24,7 +41,7 @@ $(document).ready(function () {
         infinite: true
     });
 
-       //Isotope
+       // Isotope
     var $isotopeGrid = $('.isotop_container');
 
     $isotopeGrid.isotope({
@@ -43,4 +60,12 @@ $(document).ready(function () {
     $('.links').on('click', function(e){
         e.preventDefault();})
 
+    // menu
+    (function($){
+        $(function() {
+            $('.menu__icon').on('click', function() {
+                $(this).closest('.menu').toggleClass('menu_state_open');
+            });
+        });
+    })(jQuery);
 });
