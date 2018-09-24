@@ -78,38 +78,15 @@ section.first_section {
         animation: swing 1s ease;
         -webkit-animation-iteration-count: 1;
         animation-iteration-count: 1;
-          .shp0 {
-            filter: none;
-            fill: rgb(199,178,153);
-          }
-          .txt1 {
-            fill: rgb(199,178,153);
-          }
+        .shp0 {
+          filter: none;
+          fill: rgb(199,178,153);
+        }
+        .txt1 {
+          fill: rgb(199,178,153);
+        }
       }
     }
-    //nav {
-    //  margin-right: 250px;
-    //  ul {
-    //    float: right;
-    //    padding-top: 20px;
-    //    li {
-    //      display: inline-block;
-    //      a {
-    //        font-size: 14px;
-    //        color: rgb(255,255,255);
-    //        font-family: $font-montserrat;
-    //        font-weight: 300;
-    //        text-align: right;
-    //        &:hover {
-    //          color: rgb(199,178,153);
-    //        }
-    //      }
-    //    }
-    //    li:not(:last-of-type) {
-    //      padding-right: 20px;
-    //    }
-    //  }
-    //}
   }
   .content .slider .general_container {
     padding-top: 280px;
@@ -176,16 +153,18 @@ section.first_section {
 
 .menu__icon {
   display: none;
-  width: 45px;
+  width: 50px;
   height: 35px;
   position: relative;
   cursor: pointer;
+  top: 14px;
+  right: 20px;
 }
 
 .menu__icon span {
   display: block;
   position: absolute;
-  height: 5px;
+  height: 4px;
   width: 100%;
   background: rgb(255,255,255);
   border-radius: 9px;
@@ -251,7 +230,6 @@ section.first_section {
   .menu__icon{
     display: inline-block;
   }
-
   .menu__links {
     position: fixed;
     display: none;
@@ -263,12 +241,17 @@ section.first_section {
     z-index: 1000;
     overflow: auto;
   }
-
   .menu__links-item {
     display: block;
     padding: 10px 0;
     text-align: center;
     color: rgb(255,255,255);
+  }
+}
+
+@media all and (min-width: 1000px){
+  .menu__links {
+    display: block !important;
   }
 }
 //-------------------------------------------------style search icon-----------------------------
@@ -1249,6 +1232,7 @@ section.ninth_section {
     .page1 {
       .read_more {
         position: relative;
+        display: inline-block;
         &:after {
           content: '';
           position: absolute;
@@ -1418,6 +1402,7 @@ section.eleventh_section {
             color: #d1d1d1;
           }
           position: relative;
+          display: inline-block;
           &:after {
             content: '';
             position: absolute;
