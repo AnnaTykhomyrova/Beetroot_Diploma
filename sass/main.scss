@@ -50,7 +50,7 @@ section.first_section {
     .cart {
       position: absolute;
       top: 60px;
-      right: 170px;
+      right: 426px;
       width: 20px;
       height: 20px;
       fill: white;
@@ -62,7 +62,7 @@ section.first_section {
     .search {
       position: absolute;
       top: 60px;
-      right: 130px;
+      right: 375px;
       width: 20px;
       height: 20px;
       &:hover {
@@ -71,7 +71,7 @@ section.first_section {
     }
     .logo {
       float: left;
-      margin-left: 130px;
+      margin-left: 376px;
       transition: 0.5s;
       &:hover {
         -webkit-animation: swing 1s ease;
@@ -97,7 +97,7 @@ section.first_section {
       color: rgb(255,255,255);
       font-family: $font-releway;
       text-align: center;
-      padding-bottom: 15px;
+      padding-bottom: 0;
     }
     h1 {
       font-size: 52px;
@@ -105,7 +105,7 @@ section.first_section {
       font-family: $font-releway;
       font-weight: 800;
       text-align: center;
-      padding-bottom: 25px;
+      padding-bottom: 12px;
     }
     p {
       width: 575px;
@@ -124,15 +124,16 @@ section.first_section {
       font-family: $font-releway;
       font-weight: 800;
       text-align: center;
-      width: 170px;
+      width: 189px;
       margin: 0 auto;
       button {
         border-radius: 3px;
         color: rgb(255, 255, 255);
         background-color: #988574;
         outline: none;
-        padding: 10px 48px;
+        padding: 16px 39px;
         border: 0;
+        text-transform: uppercase;
         &:hover {
           cursor: pointer;
           color: #988574;
@@ -148,7 +149,7 @@ section.first_section {
 }
 
 .menu__links {
-  margin-right: 230px;
+  margin-right: 484px;
 }
 
 .menu__icon {
@@ -194,7 +195,7 @@ section.first_section {
   font-weight: 300;
   text-align: right;
   padding: 20px 0;
-  margin-right: 20px;
+  margin-right: 23px;
   text-decoration: none;
 }
 
@@ -204,7 +205,7 @@ section.first_section {
 
 .menu.menu_state_open .menu__icon span:nth-child(1) {
   top: 18px;
-  width: 0%;
+  width: 0;
   left: 50%;
 }
 
@@ -218,7 +219,7 @@ section.first_section {
 
 .menu.menu_state_open  .menu__icon span:nth-child(4) {
   top: 18px;
-  width: 0%;
+  width: 0;
   left: 50%;
 }
 
@@ -325,8 +326,8 @@ section.first_section {
 .prev {
   position: absolute;
   z-index: 1;
-  left: 125px;
-  top: 45%;
+  left: 150px;
+  top: 375px;
   cursor: pointer;
   transition: 0.5s;
   &:hover{
@@ -336,8 +337,8 @@ section.first_section {
 
 .next {
   position: absolute;
-  right: 125px;
-  top: 45%;
+  right: 150px;
+  top: 374px;
   cursor: pointer;
   transition: 0.5s;
   &:hover{
@@ -353,7 +354,7 @@ section.first_section {
   margin: 0;
   list-style: none;
   text-align: center;
-  bottom: 40px;
+  bottom: 38px;
 }
 
 .my-dots li {
@@ -366,7 +367,7 @@ section.first_section {
 }
 
 .my-dots li {
-  margin: 0 7px ;
+  margin: 0 5px ;
 }
 
 .my-dots li button {
@@ -502,7 +503,7 @@ section.second_section {
     @include flexbox();
     @include align-items(center);
     @include justify-content(center);
-    padding-top: 75px;
+    padding-top: 65px;
     padding-bottom: 115px;
     .col1 {
       width: 271px;
@@ -511,14 +512,13 @@ section.second_section {
           filter: none;
           fill: rgb(85, 85, 85);
         }
-
         width: 50px;
         height: 50px;
-        margin: 0 auto;
+        margin: 21px auto 0;
       }
       h3 {
-        padding-top: 25px;
-        padding-bottom: 20px;
+        padding-top: 23px;
+        padding-bottom: 12px;
         font-size: 22px;
         color: rgb(85, 85, 85);
         font-family: $font-releway;
@@ -532,7 +532,6 @@ section.second_section {
         color: rgb(140,140,140);
         font-family: $font-montserrat;
         font-weight: 300;
-        text-align: center;
         margin: 0 auto;
       }
     }
@@ -546,10 +545,11 @@ section.second_section {
         width: 50px;
         height: 50px;
         margin: 0 auto;
+        margin-top: 21px;
       }
       h3 {
-        padding-top: 25px;
-        padding-bottom: 20px;
+        padding-top: 23px;
+        padding-bottom: 12px;
         font-size: 22px;
         color: rgb(85, 85, 85);
         font-family: $font-releway;
@@ -576,11 +576,11 @@ section.second_section {
         }
         width: 50px;
         height: 50px;
-        margin: 0 auto;
+        margin: 21px auto 0;
       }
       h3 {
-        padding-top: 25px;
-        padding-bottom: 20px;
+        padding-top: 23px;
+        padding-bottom: 12px;
         font-size: 22px;
         color: rgb(85, 85, 85);
         font-family: $font-releway;
@@ -607,11 +607,11 @@ section.second_section {
         }
         width: 50px;
         height: 50px;
-        margin: 0 auto;
+        margin: 21px auto 0;
       }
       h3 {
-        padding-top: 25px;
-        padding-bottom: 20px;
+        padding-top: 23px;
+        padding-bottom: 12px;
         font-size: 22px;
         color: rgb(85, 85, 85);
         font-family: $font-releway;
@@ -634,7 +634,7 @@ section.second_section {
 
 section.second_section .after:after {
     position: absolute;
-    bottom: -35px;
+    bottom: -30px;
     right: 100px;
     content: "";
     width: 70px;
@@ -676,9 +676,9 @@ section.second_section {
 }
 section.third_section .container {
   background-color: #fbf9f7;
-  padding-top: 80px;
+  padding-top: 73px;
   h2 {
-    padding-bottom: 30px;
+    padding-bottom: 17px;
     font-size: 30px;
     color: rgb(85,85,85);
     font-family: $font-releway;
@@ -700,7 +700,7 @@ section.third_section .container {
 //----------------------------------------------fourth section Waxom Multipurpose WordPress Theme-----------------------
 section.fourth_section .container {
   background-image: linear-gradient(90deg, #211b19 0%, #4e3326 100%);
-  padding: 45px 60px;
+  padding: 48px 60px;
   .wrapper {
     @include flexbox();
     @include justify-content(center);
@@ -708,7 +708,8 @@ section.fourth_section .container {
       font-size: 28px;
       color: #fff;
       font-family: $font-releway;
-      padding-bottom: 10px;
+      padding-bottom: 3px;
+      margin-top: -4px;
     }
     p {
       font-size: 18px;
@@ -723,16 +724,17 @@ section.fourth_section .container {
       font-family: $font-releway;
       font-weight: 800;
       text-align: center;
-      padding-left: 500px;
+      padding-left: 465px;
       button {
-        margin-top: 10px;
+        margin-top: 3px;
         width: 170px;
         border-radius: 3px;
         background-color: #988574;
         color: rgb(255, 255, 255);
         outline: none;
-        padding: 10px 20px;
+        padding: 13px 20px;
         border: 0;
+        text-transform: uppercase;
         &:hover {
           cursor: pointer;
           color: #988574;
@@ -747,8 +749,8 @@ section.fourth_section .container {
 }
 //-------------------------------------------------fifth section Our Latest Projects.-----------------------------
 section.fifth_section .container {
-  padding-top: 80px;
-  margin-bottom: 80px;
+  padding-top: 77px;
+  margin-bottom: 86px;
   .load_more {
     font-size: 14px;
     line-height: 23px;
@@ -762,8 +764,9 @@ section.fifth_section .container {
       background-color: #988574;
       color: rgb(255, 255, 255);
       outline: none;
-      padding: 9px 20px;
+      padding: 14px 20px;
       border: 1px solid transparent;
+      text-transform: uppercase;
       &:hover {
         cursor: pointer;
         color: #988574;
@@ -773,7 +776,7 @@ section.fifth_section .container {
     }
   }
   h2 {
-    padding-bottom: 25px;
+    padding-bottom: 16px;
     font-size: 30px;
     color: rgb(85,85,85);
     font-family: $font-releway;
@@ -781,7 +784,7 @@ section.fifth_section .container {
     text-align: center;
   }
   p {
-    padding-bottom: 40px;
+    padding-bottom: 29px;
     width: 770px;
     font-size: 16px;
     line-height: 28px;
@@ -793,13 +796,13 @@ section.fifth_section .container {
   }
 }
 .all_isotop_container{
-  padding-bottom: 40px;
+  padding-bottom: 45px;
   ul {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     li {
       display: inline-block;
-      margin-right: 30px;
+      margin-right: 13px;
       border-radius: 3px;
       background-color: rgba(17,17,17,0);
       border: 1px solid #ebebeb;
@@ -837,8 +840,8 @@ section.fifth_section .container {
       padding-left: 30px;
     }
     h4 {
-      padding-top: 30px;
-      padding-bottom: 10px;
+      padding-top: 23px;
+      padding-bottom: 4px;
       font-size: 20px;
       color: rgb(199,178,153);
       font-family: $font-releway;
@@ -965,15 +968,15 @@ section.sixth_section {
   background: url("../images/bg_section4.jpg") no-repeat center;
   background-size: cover;
   .container {
-    padding-top: 205px;
-    padding-bottom: 205px;
+    padding-top: 210px;
+    padding-bottom: 200px;
     .play_video {
       img:hover {
         cursor: pointer;
         opacity: 0.7;
       }
       h2 {
-        padding-bottom: 30px;
+        padding-bottom: 15px;
         padding-top: 40px;
         font-size: 30px;
         color: rgb(255, 255, 255);
@@ -981,7 +984,7 @@ section.sixth_section {
         text-align: center;
       }
       p {
-        padding-bottom: 35px;
+        padding-bottom: 27px;
         width: 571px;
         font-size: 16px;
         line-height: 28px;
@@ -1006,23 +1009,24 @@ section.sixth_section {
 section.seventh_section {
   background-color: #fbf9f7;
   .container {
-    padding-top: 70px;
+    padding-top: 79px;
     @include flexbox();
     @include justify-content(center);
     .iphone_in_hand {
-      padding-right: 30px;
+      margin-left: 55px;
     }
     .content {
-      padding-top: 120px;
+      padding-top: 111px;
+      margin-left: 33px;
       h2 {
-        padding-bottom: 40px;
+        padding-bottom: 26px;
         font-size: 30px;
         color: rgb(85,85,85);
         font-family: $font-releway;
         font-weight: bold;
       }
       p {
-        padding-bottom: 30px;
+        padding-bottom: 29px;
         width: 675px;
         font-size: 16px;
         line-height: 28px;
@@ -1031,7 +1035,7 @@ section.seventh_section {
         font-weight: 300;
       }
       .arrow {
-        padding-left: 55px;
+        padding-left: 47px;
         .flex1, .flex2, .flex3, .flex4 {
           @include flexbox();
           @include justify-content (flex-start);
@@ -1065,15 +1069,14 @@ section.seventh_section {
 section.eighth_section {
   background-image: linear-gradient(90deg, #211b19 0%, #4e3326 100%);
   .container {
-    padding-top: 65px;
+    padding-top: 58px;
     padding-bottom: 80px;
     .wrapper {
       @include flexbox();
       @include justify-content(center);
-      @include align-items(center);
       h1 {
-        padding-top: 25px;
-        padding-bottom: 20px;
+        padding-top: 29px;
+        padding-bottom: 7px;
         font-size: 48px;
         color: rgb(255,255,255);
         font-family: $font-montserrat;
@@ -1098,9 +1101,10 @@ section.eighth_section {
 .wrapper_section_eighth3,
 .wrapper_section_eighth4,
 .wrapper_section_eighth5 {
-  margin-left: 80px;
   width: 137px;
+  margin-left: 63px;
   .svg {
+    padding-top: 12px;
     margin: 0 auto;
     height: 44px;
     width: 44px;
@@ -1118,7 +1122,7 @@ section.eighth_section {
   position: relative;
   &:after {
     position: absolute;
-    bottom: -25px;
+    bottom: -23px;
     right: 55px;
     content: "";
     width: 30px;
@@ -1130,10 +1134,10 @@ section.eighth_section {
 section.ninth_section {
   .container {
     padding-top: 80px;
-    padding-bottom: 140px;
+    padding-bottom: 141px;
     .wrapper9 {
       h2 {
-        padding-bottom: 30px;
+        padding-bottom: 15px;
         font-size: 30px;
         color: rgb(85,85,85);
         font-family: $font-releway;
@@ -1154,8 +1158,8 @@ section.ninth_section {
     }
     .page1 {
       h3 {
-        padding-top: 30px;
-        padding-bottom: 20px;
+        padding-top: 26px;
+        padding-bottom: 10px;
         width: 312px;
         font-size: 20px;
         color: rgb(85,85,85);
@@ -1178,7 +1182,7 @@ section.ninth_section {
         font-weight: 300;
       }
       .text_content {
-        padding-left: 30px;
+        padding-left: 28px;
         border: 1px solid #f7f7f7;
       }
     }
@@ -1255,13 +1259,13 @@ section.tenth_section {
   background: url("../images/bg_section8.jpg") no-repeat center;
   background-size: cover;
   .container {
-    padding-top: 135px;
-    padding-bottom: 135px;
+    padding-top: 142px;
+    padding-bottom: 143px;
     .all_partners {
       @include flexbox();
       @include justify-content(center);
       .partners2, .partners3, .partners4 {
-        padding-left: 85px;
+        padding-left: 90px;
       }
       .partners1, .partners2, .partners3, .partners4 {
         &:hover {
@@ -1272,11 +1276,23 @@ section.tenth_section {
     }
   }
 }
+.partners1 {
+  padding-top: 40px;
+}
+.partner2 {
+  padding-top: 40px;
+}
+.partners3 {
+  padding-top: 40px;
+}
+.partners4 {
+  padding-top: 25px;
+}
 //-------------------------------------------------eleventh section Before footer-----------------------------
 section.eleventh_section {
   background-color: #191919;
   .container {
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 80px;
     .general_wrapper {
       @include flexbox();
@@ -1313,12 +1329,12 @@ section.eleventh_section {
 }
 
 .wrapper11_2, .wrapper11_3, .wrapper11_4 {
-  padding-left: 35px;
+  padding-left: 30px;
 }
 
 .logo_11section {
-  padding-bottom: 35px;
-  margin-top: -30px;
+  padding-bottom: 20px;
+  margin-top: -25px;
   &:hover {
     cursor: pointer;
   }
@@ -1334,17 +1350,17 @@ section.eleventh_section {
     .general_wrapper {
       .wrapper11_1 {
         p {
-          padding-bottom: 30px;
+          padding-bottom: 23px;
           line-height: 24px;
         }
       }
       .wrapper11_2 {
         h3 {
-          padding-bottom: 20px;
+          padding-bottom: 14px;
         }
 
         h6 {
-          padding-bottom: 10px;
+          padding-bottom: 7px;
           padding-top: 10px;
         }
 
@@ -1363,7 +1379,7 @@ section.eleventh_section {
       }
       .wrapper11_3 {
         h3 {
-          padding-bottom: 30px;
+          padding-bottom: 19px;
         }
         h6 {
           padding-top: 10px;
@@ -1439,12 +1455,10 @@ section.eleventh_section {
 footer {
   background-color: #101010;
   .container {
-    padding-top: 40px;
-    padding-bottom: 40px;
     @include flexbox();
-    @include justify-content(center);
-    .copyright, .designed_by {
-      font-size: 13px;
+    @include justify-content(space-between);
+    padding: 41px 370px 50px 374px;
+    font-size: 13px;
       line-height: 20px;
       color: rgb(85,85,85);
       font-family: $font-montserrat;
@@ -1455,54 +1469,45 @@ footer {
       a:hover {
         cursor: pointer;
       }
-    }
-    .designed_by {
-      text-align: right;
-      margin-left: 534px;
-    }
-  }
-}
-
-.dash {
-  padding: 0 10px;
-}
-
-
-
-footer {
-  .container {
-    .copyright {
-      .color_text_footer {
-        &:hover {
+    .left {
+     @include flexbox();
+     @include justify-content(flex-start);
+      h4:first-child {
+        padding-right: 5px;
+      }
+      h4:nth-child(2){
+        border-right: 1px solid rgb(85,85,85);
+        padding-right: 10px;
+        &:hover a{
           color: #6a6a6a;
           a {
             color: #6a6a6a;
           }
         }
       }
-    }
-  }
-}
-
-footer {
-  .container {
-    .copyright {
-      .color_text_footer2 {
-        &:hover {
+      h4:nth-child(3), h4:nth-child(4), h4:nth-child(5)  {
+        border-right: 1px solid rgb(85,85,85);
+        margin-left: 10px;
+        padding-right: 12px;
+        &:hover a{
           color: #6c6155;
           a {
             color: #6c6155;
           }
         }
       }
-    }
-  }
-}
-
-footer {
-  .container {
-    .designed_by {
-      .color_text_footer3 {
+      h4:nth-child(5) {
+        border-right: none;
+        padding-right: 0;
+      }
+     }
+    .right {
+      @include flexbox();
+      @include justify-content(flex-end);
+      h4:first-child {
+        padding-right: 5px;
+      }
+      h4:nth-child(2),  h4:nth-child(4) {
         &:hover {
           color: #696969;
           a {
@@ -1510,10 +1515,47 @@ footer {
           }
         }
       }
+      h4:nth-child(2) {
+        border-right: 1px solid rgb(85,85,85);
+        padding-right: 10px;
+      }
+      h4:nth-child(3) {
+        padding-right: 5px;
+        margin-left: 10px;
+      }
     }
   }
 }
 //-------------------------------------------------media requests-----------------------------
+@media (max-width: 1730px) {
+  section.first_section {
+    .container header {
+      .logo {
+        margin-left: 100px;
+      }
+      .cart {
+        right: 150px;
+      }
+      .search {
+        right: 100px;
+      }
+    }
+  }
+  .menu__links {
+    margin-right: 250px;
+  }
+}
+
+@media (max-width: 1730px) {
+  footer {
+    background-color: #101010;
+    .container {
+      padding: 41px 100px 50px 100px;
+
+    }
+  }
+}
+
 @media (max-width: 1230px) {
   .third_section{
     .container {
