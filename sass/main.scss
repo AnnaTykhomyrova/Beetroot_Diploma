@@ -1781,6 +1781,7 @@ footer {
     display: none;
   }
   section.fourth_section .container .wrapper {
+    text-align: center;
     h2 {
       font-size: 21px;
     }
@@ -1789,9 +1790,12 @@ footer {
     }
     .purchase_now {
       font-size: 12px;
+      padding-left: 0;
       button {
         padding: 12px 0;
         width: 135px;
+        transform: translateX(-50%);
+        margin-left: 50%;
       }
     }
   }
@@ -1924,6 +1928,7 @@ footer {
     display: none;
   }
   section.fourth_section .container .wrapper {
+    text-align: center;
     h2 {
       font-size: 16px;
     }
@@ -1933,9 +1938,12 @@ footer {
     }
     .purchase_now {
       font-size: 10px;
+      padding-left: 0;
       button {
         padding: 10px 0;
         width: 110px;
+        transform: translateX(-50%);
+        margin-left: 50%;
       }
     }
   }
@@ -1997,6 +2005,11 @@ footer {
 @media (max-width: 480px) {
   section.tenth_section {
     display: none;
+  }
+  section.eleventh_section .container {
+    .wrapper11_1, .wrapper11_2, .wrapper11_3, .wrapper11_4 {
+      padding-left: 0;
+    }
   }
 }
 
