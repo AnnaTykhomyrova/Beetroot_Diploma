@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     // Counters
     function isScrolledIntoView(el) {
         var elemTop = el.getBoundingClientRect().top;
@@ -38,7 +39,17 @@ $(document).ready(function () {
         prevArrow:'<img class="prev" src="images/left.png">',
         nextArrow:'<img class="next" src="images/right.png">',
         speed: 2000,
-        infinite: true
+        infinite: true,
+        responsive: [
+            {
+                breakpoint: 980,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows:false
+                }
+            }
+        ]
     });
 
        // Isotope
