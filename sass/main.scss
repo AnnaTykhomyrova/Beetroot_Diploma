@@ -1593,7 +1593,8 @@ footer {
     display: inline-block;
   }
   .menu__links {
-    position: fixed;
+    position: relative;
+    width: 100%;
     display: none;
     top: 0;
     right: 0;
