@@ -1937,6 +1937,14 @@ footer {
   }
 }
 
+@media (max-width: 560px) {
+  section.eleventh_section .container {
+    .wrapper11_1, .wrapper11_2, .wrapper11_3, .wrapper11_4 {
+      padding-left: 0;
+    }
+  }
+}
+
 @media (max-width: 555px) {
   section.first_section {
     .content .slider .general_container {
