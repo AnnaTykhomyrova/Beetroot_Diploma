@@ -169,10 +169,8 @@ section.first_section {
 
 
 .menu__links {
-  margin-right: 484px;
-  transform: translateX(-50%);
-  margin-left: 50%;
-}
+   margin-right: 484px;
+ }
 
 menu menu_state_open {
   margin-bottom: 10px;
@@ -1603,6 +1601,10 @@ footer {
     background-color: rgba(65, 65, 64, 0.8);
     z-index: 1000;
     overflow: auto;
+  }
+  .menu__links {
+    transform: translateX(-50%);
+    margin-left: 50%;
   }
   .menu__links-item {
     display: block;
