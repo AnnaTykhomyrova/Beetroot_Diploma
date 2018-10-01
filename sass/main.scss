@@ -739,10 +739,16 @@ section.fourth_section .container {
         padding: 13px 20px;
         border: 0;
         text-transform: uppercase;
+        a {
+          color: rgb(255, 255, 255);
+        }
         &:hover {
           cursor: pointer;
           color: #988574;
           background-color: rgb(255, 255, 255);
+          a {
+            color: #988574;
+          }
         }
       }
     }
@@ -967,6 +973,10 @@ section.fifth_section .container {
 .gap {
   margin-left: 45px;
 }
+
+.hide {
+  display: none;
+}
 //-------------------------------------------------sixth section Waxom Video Presentation-----------------------------
 section.sixth_section {
   background: url("../images/bg_section4.jpg") no-repeat center;
@@ -1007,6 +1017,12 @@ section.sixth_section {
       }
     }
   }
+}
+
+iframe {
+  display: none;
+  transform: translateX(-50%);
+  margin-left: 50%;
 }
 
 //-------------------------------------------------seventh section Excellent for Mobile Devices.------------------------
@@ -1171,7 +1187,6 @@ section.ninth_section {
         font-family: $font-releway;
       }
       p {
-        padding-bottom: 20px;
         width: 311px;
         font-size: 14px;
         line-height: 22px;
@@ -1180,6 +1195,7 @@ section.ninth_section {
         font-weight: 300;
       }
       h6 {
+        padding-top: 20px;
         padding-bottom: 30px;
         font-size: 14px;
         color: rgb(199,178,153);
@@ -1257,9 +1273,37 @@ section.ninth_section {
           opacity: 0.5;
         }
       }
+      .read_more2 {
+        position: relative;
+        display: inline-block;
+        &:after {
+          content: '';
+          position: absolute;
+          z-index: 1;
+          left: 82px;
+          bottom: 32px;
+          border: 5px solid transparent;
+          border-left: 8px solid #c7b199;
+        }
+        &:hover {
+          cursor: pointer;
+          opacity: 0.5;
+        }
+      }
     }
   }
 }
+.read_more2:after {
+  border-top: 8px solid #c7b199;
+}
+.block, .block2, .block3 {
+  display: none;
+  p:first-child {
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+}
+
 //-------------------------------------------------tenth section Partners-----------------------------
 section.tenth_section {
   background: url("../images/bg_section8.jpg") no-repeat center;
@@ -1459,6 +1503,10 @@ section.eleventh_section {
   &:hover {
     cursor: pointer;
   }
+}
+
+.hidden {
+  display: none;
 }
 //-------------------------------------------------footer-----------------------------
 footer {

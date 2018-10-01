@@ -85,4 +85,42 @@ $(document).ready(function () {
                 .removeClass('menu_state_open');
         });
     });
+
+
+    // ninth section Recent Posts.
+
+    $(".link").click(function(){
+        $(".block").slideToggle("slow");
+        $(".one").hide();
+    });
+    $(".link2").click(function(){
+        $(".block2").slideToggle("slow");
+        $(".two").hide();
+    });
+    $(".link3").click(function(){
+        $(".block3").slideToggle("slow");
+        $(".three").hide();
+    });
+
+
+    // fifth section Our Latest Projects.
+
+    $(".load_more").click(function(){
+        $(".hide").slideToggle("slow");
+        $(".load_more").hide();
+    });
+
+    // eleventh section Before footer
+
+    $(".read_more11").click(function(){
+        $(".hidden").slideToggle("slow");
+        $(".read_more11").hide();
+    });
+
+    // sixth section Waxom Video Presentation
+    
+    $(".play_video img").click(function(){
+        $("iframe").slideToggle("slow");
+        $(".play_video").hide();
+    });
 });
