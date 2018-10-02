@@ -2387,7 +2387,8 @@ footer {
   }
   footer .container {
     padding: 20px 0 20px 0;
-    font-size: 9px;
+    font-size: 8px;
+    line-height: 18px;
     .right {
       margin-top: 5px;
     }
@@ -2401,5 +2402,11 @@ footer {
   footer .container .right h4:nth-child(3),
   footer .container .right h4:nth-child(4) {
     padding-right: 5px;
+  }
+  footer .container .left h4:nth-child(3), footer .container .left h4:nth-child(4), footer .container .left h4:nth-child(5) {
+    margin-left: 5px;
+  }
+  footer .container .right h4:nth-child(3) {
+    margin-left: 5px;
   }
 }
