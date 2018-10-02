@@ -1302,6 +1302,9 @@ section.ninth_section {
     padding-bottom: 5px;
     padding-top: 5px;
   }
+  p:last-child {
+    padding-bottom: 30px;
+  }
 }
 
 //-------------------------------------------------tenth section Partners-----------------------------
@@ -2110,3 +2113,9 @@ footer {
   }
 }
 
+@media (max-width: 579px) {
+  .all_isotop_container ul li:last-child {
+    margin-top: 10px;
+  };
+
+}

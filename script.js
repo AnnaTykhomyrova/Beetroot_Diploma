@@ -118,7 +118,7 @@ $(document).ready(function () {
     });
 
     // sixth section Waxom Video Presentation
-    
+
     $(".play_video img").click(function(){
         $("iframe").slideToggle("slow");
         $(".play_video").hide();
