@@ -18,6 +18,7 @@ $(document).ready(function () {
         }
     });
 
+
     // Smooth scrolling
     var $anchors = $('a[href^="#"]').not('[href="#"]');
 
@@ -30,6 +31,7 @@ $(document).ready(function () {
             scrollTop: $(id).offset().top
         }, 1500);
     });
+
 
     // Slick-slider
     $('.slider').slick({
@@ -52,6 +54,7 @@ $(document).ready(function () {
         ]
     });
 
+
        // Isotope
     var $isotopeGrid = $('.isotop_container');
 
@@ -71,6 +74,7 @@ $(document).ready(function () {
     $('.links').on('click', function(e){
         e.preventDefault();})
 
+
     // menu
     $(function() {
         $('.menu__icon').on('click', function() {
@@ -88,7 +92,6 @@ $(document).ready(function () {
 
 
     // ninth section Recent Posts.
-
     $(".link").click(function(){
         $(".block").slideToggle("slow");
         $(".one").hide();
@@ -103,24 +106,30 @@ $(document).ready(function () {
     });
 
 
-    // fifth section Our Latest Projects.
-
-    $(".load_more").click(function(){
-        $(".hide").slideToggle("slow");
-        $(".load_more").hide();
-    });
-
     // eleventh section Before footer
-
     $(".read_more11").click(function(){
         $(".hidden").slideToggle("slow");
         $(".read_more11").hide();
     });
 
     // sixth section Waxom Video Presentation
-
     $(".play_video img").click(function(){
         $("iframe").slideToggle("slow");
         $(".play_video").hide();
+    });
+
+
+    // fixed scroll top
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 300) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    $('.scrollup').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 1500);
+        return false;
     });
 });
