@@ -2380,11 +2380,26 @@ footer {
     padding-top: 35px;
     padding-bottom: 30px;
   }
+  section.eleventh_section .container .general_wrapper .wrapper11_1 .read_more11:after {
+    border: 5px solid transparent;
+    border-left: 5px solid #c7b199;
+    left: 75px;
+  }
   footer .container {
     padding: 20px 0 20px 0;
     font-size: 9px;
     .right {
       margin-top: 5px;
     }
+  }
+  footer .container .left h4:nth-child(2),
+  footer .container .left h4:nth-child(3),
+  footer .container .left h4:nth-child(4) {
+    padding-right: 5px;
+  }
+  footer .container .right h4:nth-child(2),
+  footer .container .right h4:nth-child(3),
+  footer .container .right h4:nth-child(4) {
+    padding-right: 5px;
   }
 }
