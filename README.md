@@ -8,7 +8,7 @@ Graduate front-end project that was created using:
 
 Also <em>Waxom</em> has responsive web design.
 
-You can find demo here: [https://annatykhomyrova.github.io/Beetroot_Diploma/] (https://annatykhomyrova.github.io/Beetroot_Diploma/)
+You can find demo here: https://annatykhomyrova.github.io/Beetroot_Diploma/
 
 # Final Product
 
