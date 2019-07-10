@@ -93,23 +93,19 @@ $(document).ready(function () {
 
     // ninth section Recent Posts.
     $(".link").click(function(){
-        $(".block").slideToggle("slow");
-        $(".one").hide();
+        $(".block").slideToggle(true);
     });
     $(".link2").click(function(){
-        $(".block2").slideToggle("slow");
-        $(".two").hide();
+        $(".block2").slideToggle(true);
     });
     $(".link3").click(function(){
-        $(".block3").slideToggle("slow");
-        $(".three").hide();
+        $(".block3").slideToggle(true);
     });
 
 
     // eleventh section Before footer
     $(".read_more11").click(function(){
-        $(".hidden").slideToggle("slow");
-        $(".read_more11").hide();
+        $(".hidden").slideToggle(true);
     });
 
     // sixth section Waxom Video Presentation
